@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>OpenSeadragon</title>
+  <link rel='stylesheet'
+          type='text/css'
+          media='screen'
+          href='zoom.css'/>
+
+</head>
+
+<body>
+<div id="container">
+<h1>Images HD</h1>
+<div class="demoarea">
+  </div>
+    <div id="toolbarDiv" class="toolbar">
+      
+    </div>
+<div id="contentDiv" class="openseadragon front-page"></div>
+
+    <div class="image-credit">&copy; Sources : <a href="https://github.com/pierre-67/zoom" target="_blank">Github</a>
+	    <p>Quelques lignes... peut-être suffit-il d'une div ?</p></div>
+</div>
+</div>
+
+<script src="scripts/openseadragon.min.js"></script>
+<script type="text/javascript">
+    // Example
+    OpenSeadragon({
+        id:              "contentDiv",
+        prefixUrl:       "scripts/images/",
+        tileSources:     "giga/galaad.dzi"
+    });
+</script>
+</div>
+<div id="container">
+	
+</body>
+</html>
+
